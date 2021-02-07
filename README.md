@@ -6,9 +6,9 @@ The purpose of the analysis was to predict credit risk using supervised learning
 ## Results
 The analysis used six machine learning algorithms including:<br>
 - RandomOverSampler: Oversampling
-- SMOTE: Overrsampling
+- SMOTE (Synthetic Minority Oversampling Technique): Oversampling
 - Cluster Centroids: Undersampling
-- SMOTEENN: Oversampling & undersampling combinatorial approach
+- SMOTEENN (Synthetic Minority Oversampling Technique - Edited Nearest Neighbor): Oversampling & undersampling combinatorial approach
 - Balanced Random Forest Classifier: Reduction bias
 - Easy Ensemble AdaBoost Classifier: Reduction bias<br>
 
