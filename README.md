@@ -3,8 +3,15 @@
 ## Overview
 The purpose of the analysis was to predict credit risk using supervised learning algorithms with various machine learning models
 
-
 ## Results
+The analysis used six machine learning algorithms including:<br>
+- RandomOverSampler: Oversampling
+- SMOTE: Overrsampling
+- Cluster Centroids: Undersampling
+- SMOTEENN: Oversampling & undersampling combinatorial approach
+- Balanced Random Forest Classifier: Reduction bias
+- Easy Ensemble AdaBoost Classifier: Reduction bias
+
 ### RandomOverSampler
 <img src="https://github.com/ChrisBarton107/Credit_Risk_Analysis/blob/main/Resources/ROS.png" alt="drawing" height="300" width="500"/><br>
 - Balanced Accuracy Score: 65%
