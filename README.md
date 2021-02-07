@@ -19,7 +19,7 @@ The analysis used six machine learning algorithms including:<br>
 - Recall/Sensitivity: 63%
 - F1: 2%
 
-### SMOTE
+### SMOTE (Synthetic Minority Oversampling Technique)
 <img src="https://github.com/ChrisBarton107/Credit_Risk_Analysis/blob/main/Resources/SMOTE.png" alt="drawing" height="300" width="500"/><br>
 - Balanced Accuracy Score: 65%
 - Precision: 1%
@@ -33,7 +33,7 @@ The analysis used six machine learning algorithms including:<br>
 - Recall/Sensitivity: 69%
 - F1: 2%
 
-### SMOTEENN
+### SMOTEENN (Synthetic Minority Oversampling Technique - Edited Nearest Neighbor)
 <img src="https://github.com/ChrisBarton107/Credit_Risk_Analysis/blob/main/Resources/SMOTEENN.png" alt="drawing" height="300" width="500"/><br>
 - Balanced Accuracy Score: 62%
 - Precision: 1%
