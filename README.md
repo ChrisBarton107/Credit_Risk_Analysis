@@ -10,7 +10,9 @@ The analysis used six machine learning algorithms including:<br>
 - Cluster Centroids: Undersampling
 - SMOTEENN: Oversampling & undersampling combinatorial approach
 - Balanced Random Forest Classifier: Reduction bias
-- Easy Ensemble AdaBoost Classifier: Reduction bias
+- Easy Ensemble AdaBoost Classifier: Reduction bias<br>
+
+All precision, recall, and F1 summary statistics are based on high-risk detection
 
 ### RandomOverSampler
 <img src="https://github.com/ChrisBarton107/Credit_Risk_Analysis/blob/main/Resources/ROS.png" alt="drawing" height="300" width="500"/><br>
@@ -55,3 +57,4 @@ The analysis used six machine learning algorithms including:<br>
 - F1: 14%
 
 ## Summary
+Ensemble models, including the Balanced Random Forest Classifier and Easy Ensemble Classifier, demonstrated superior recall performance in high risk credit decisions when compared to the other models in the analysis. Despite this superior performance, these models still demonstrated low precision, making them potential liabilities in real-life situations. These models are unrealiable in their intended tasks and I would not recommend them for predicting credit risk
